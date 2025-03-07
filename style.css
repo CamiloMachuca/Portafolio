@@ -1,0 +1,78 @@
+
+body{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #202122 ;
+    border: solid 1px solid red;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    margin: -0.4vw;
+    background-color:#dde0e6 ;
+    position: fixed;
+    height: 5vw;
+    width: 100%;
+    color: rgb(12, 12, 12);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contenedor{
+    
+    margin: auto;
+    height: 120vw;
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.opciones {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 1.5vw;
+    display: flex;
+    gap: 3vw;
+    left: 35vw;
+    width: 35vw;
+    height: 5vw;
+    left: 64vw;
+}
+.opciones a{
+    text-decoration: none;
+    color: rgb(66, 69, 114);
+
+}
+
+.imagen{
+    position: relative;
+    box-shadow: 0 0 3vw rgba(255, 255, 255, 0.3);
+    top: 15vw;
+    left: 20vw;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50vw;
+}
+.contenido1{
+
+    width: 40vw;
+    position: relative;
+    left: 10vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5vw
+}
+.contenido1 p{
+    color: white;
+}
+.contenido1 h1{
+    color: #007BFF;
+}
