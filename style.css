@@ -158,12 +158,21 @@ header{
     width: 1.2vw;
     height: 1.2vw;
 }
+.botones{
+    display: flex;
+    width: 22vw;
+    height: 4vw;
+    position: relative;
+    left: 9vw;
+    justify-content: space-between;
+
+}
 
 .botones button{
     background: linear-gradient(to right, #233f53, #366897);
     border: black;
     width: 10vw;
-    height: 2vw;
+    height: 2.5vw;
     border-radius: 0.5vw;
     color: black;
     font-family: letra2;
@@ -174,7 +183,7 @@ header{
 }
 .botones button:hover{
     width: 11vw;
-    height: 2.5vw;
+    height: 3vw;
     color: white;
 }
 
@@ -250,9 +259,9 @@ header{
     justify-content: center;
     align-items: center;
     gap: -1vw;
-    top: 13vw;
+    top: 9vw;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Dos columnas en móviles */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 
 
 }
@@ -316,18 +325,17 @@ header{
     color: #24d4d4;
     font-family: letra2;
     position: relative;
-    top: 5vw;
+    top: 4vw;
 }
 .ContenProyectos{
     position: relative;
-    top: 5vw;
+    top: 4vw;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 4vw;
     left: 15vw;
     width: 70vw;
 
@@ -346,7 +354,7 @@ header{
     border-radius: 10px; 
     position: relative; 
     overflow: hidden; 
-    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+    transition: border-color 0.3s ease, box-shadow 0.3s; 
 }
 
 .proyecto1:hover {
@@ -372,9 +380,9 @@ a {
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 8vw;
+    top: 7vw;
     background: linear-gradient(to right, #233f53, #366897);
-    height: 4.5vw;
+    height: 9vw;
     width: 100%;
     color:#979dac;
 
@@ -397,9 +405,65 @@ a {
     background: #979dac;
     border-radius: 2px;
 }
+
+.botones2{
+    position: relative;
+    left: 74vw;
+    top: -7vw;
+    display: flex;
+    width: 20vw;
+    justify-content: space-between;
+    font-size: 1.5vw;
+    
+}
+.botones2 img{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+.botones2 a{
+    color: #1f2022;
+    font-family: letra2;
+}
+.piedePaText{
+    position: relative;
+    left: -37vw;
+    top: 2vw;
+    font-size: 1.5vw;
+    color: #8d96ab;
+    font-family: letra2;
+
+}
+.texDesarr{
+    position: relative;
+    left: -37vw;
+    top: 1vw;
+    font-size: 1.5vw;
+    color: #979dac;
+    font-family: letra;
+}
+.texAutor{
+    position: relative;
+    top: -2.5vw;
+    color: #979dac;
+    font-size: 1.2vw;
+    font-family: letra;
+}
+.lineaa{
+    position: relative;
+    top: -2.3vw;
+    left: 35vw;
+    width: 30vw;
+    border: 0.1vw solid rgb(49, 47, 47);
+}
 @media screen and (max-width: 435px){
     body{
         margin: -0.5vw;
+    }
+    .botones{
+        display: flex;
+        width: 68vw;
+        left: 0.1vw;        
+    
     }
     header{
         width: 101%;
@@ -569,20 +633,19 @@ a {
         gap: 2vw;
     }
 
-    .lenguaje {
-        width: 20vw;
-        height: 20vw;
-    }
-
     .cont1 p {
         font-size: 5vw;
         font-family: letra3;
     }
+    .cont1 p:hover {
+        font-size: 5vw;
+    }
+
   
     
     .lenguaje{
-        width: 20vw;
-        height: 20vw;
+        width: 18vw;
+        height: 18vw;
         animation: sacudida 5s infinite ease-in-out;
     
     }
@@ -590,7 +653,7 @@ a {
         position: relative;
         left: 5vw;
         width: 90vw;
-        gap: -1vw;
+        gap: 4vw;
         grid-template-columns: 2fr; 
 
     }
@@ -598,6 +661,287 @@ a {
         background-color: #1a3058;
         width: 90vw;
         padding: 0.5vw;
+        border-radius: 4vw; 
+        overflow: hidden; 
+    }
+    #contenedor4{
+        top: -16vw;
+        width: 101.5vw;
+        left: 0.5vw;
+        height: 160vh;
+        gap: 2vw;    
+    }
+    #contenedor4 h1{
+        font-size: 7vw;
+        position: relative;
+        top: 5vw;
+    }
+    .piedepag{
+        height: 25vw;
+        width: 100%;    
+    }
+    .botones2{
+        position: relative;
+        left: 60vw;
+        top: -15vw;
+        width: 39vw;
+        font-size: 4vw;
+        
+    }
+    .botones2 img{
+        width: 4vw;
+        height: 4vw;
+    }
+    .botones2 a{
+        color: #1f2022;
+        font-family: letra2;
+    }
+    .piedePaText{
+        position: relative;
+        left: -18vw;
+        top: 2vw;
+        font-size: 4vw;
+        color: #8d96ab;
+        font-family: letra2;
+    
+    }
+    .texDesarr{
+        position: relative;
+        left: -18vw;
+        top: 1vw;
+        font-size: 3vw;
+        color: #979dac;
+        font-family: letra;
+    }
+    .texAutor{
+        position: relative;
+        top: -2vw;
+        left: -40vw;
+        opacity: 0%;
+        color: #979dac;
+        font-size: 1.2vw;
+        font-family: letra;
+    }
+    .lineaa{
+        position: relative;
+        top: -2.3vw;
+        left: 18vw;
+        width: 30vw;
+        border: 0.1vw solid rgb(49, 47, 47);
+    }
+    
+    
+    
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    body{
+        margin: -0.5vw;
+    }
+    .botones{
+        display: flex;
+        width: 60vw;
+        left: 4vw;        
+    
+    }
+    header{
+        width: 101%;
+        top: 0vw;
+        height: 12vw;
+       
+    }
+    .imagen{
+        position: relative;
+        box-shadow: 0 0 20px #24d4d4;
+        border: 0.1vw solid #24d4d4;
+        top: 20vw;
+        left: 0vw;
+        width: 40vw;
+        height: 40vw;
+        border-radius: 50vw;
+    }
+    .contenido1{
+    
+        width: 68vw;
+        top: 20vw;
+        left: 18vw;
+        font-size: 3.5vw;
+    }
+    .contenido1 p{
+        color: white;
+        font-family: letra;
+    }
+    .contenido1 h1{
+        color:#24d4d4 ;
+        font-family: letra2;
+        
+    }
+    .imgbotn1{
+        position: relative;
+        top: 0.2vw;
+        width: 4vw;
+        height: 4vw;
+    }
+    
+    .botones button{
+        background: linear-gradient(to right, #233f53, #366897);
+        border: black;
+        width: 25vw;
+        height: 9vw;
+        border-radius: 0.5vw;
+        color: black;
+        font-family: letra2;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 4vw;
+    }
+    
+    .botones button:hover{
+        width: 28vw;
+        height: 10vw;
+        color: white;
+    }
+    .menu-toggle {
+        width: 7vw;
+        height: 5vw;
+        position: relative;
+        top: -5vw;
+        left: 85vw;
+        display: flex; 
+    }
+
+    .opciones {
+        display: none; 
+        flex-direction: column;
+        position: relative;
+        top: -3vw;
+        left: 52vw;
+        width: 50vw;
+        height: 75vw;
+        background: linear-gradient(to right, #233f53, #366897);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        font-size: 5vw;
+    }
+
+    .opciones.active {
+        display: flex; 
+    }
+    .icono{
+        width: 7vw;
+        height: 7vw;
+    }
+    .opciones img{
+        position: relative;
+        left: -0.7vw;
+        top: 3.5vw;
+        
+    }
+    .opciones a{
+        font-family: letra3;
+        display: flex;
+        text-decoration: none;
+        color:#979dac;    
+    }
+    .miPortafo{
+        position: relative;
+        left: 5vw;
+        font-size: 6vw;
+        top: -2vw;
+        width: 35vw;
+        height: 4vw;
+        font-family: letra3;
+    }
+    
+    #contenedor2{
+        position: relative;
+        top: -5vw;
+        left: 0.5vw;
+        width: 101.5vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        background: linear-gradient(to right, #50555a, #111d29);
+    
+    }
+    #TextoSobremi{
+        font-size: 3.5vw;
+        position: relative;
+        top: 20vw;
+        left: 15vw;
+        width: 70vw;
+        font-family: letra;
+    
+    }
+    #contenedor2 h1{
+        color:#24d4d4 ;
+        font-family: letra2;
+    
+    }
+    .Imgproyecto1{
+        width: 35vw;
+        height: 30vw;
+        mask-image: linear-gradient(
+            black 80%, 
+            transparent
+        );
+        border-radius: 1vw;
+    }
+    #contenedor3{
+        position: relative;
+        top: -11vw;
+        left: 0.5vw;
+        background: linear-gradient(to right, #696f74, #132434);  
+        width: 101.5vw;
+        
+    }
+    #contenedor3 h2{
+        top: 6vw;
+        font-size: 6vw;
+        font-family: letra2;
+        color:#24d4d4;
+    }
+    
+    .texCont3 {
+        top: 2vw;
+        font-size: 4vw;
+    }
+
+    .imagenesLenguajes {
+        top: 3vw;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2vw;
+    }
+
+    .cont1 p {
+        font-size: 3.5vw;
+        font-family: letra3;
+    }
+    .cont1 p:hover {
+        font-size: 4vw;
+    }
+
+  
+    
+    .lenguaje{
+        width: 10vw;
+        height: 10vw;
+    
+    }
+    .ContenProyectos{
+        position: relative;
+        left: 5vw;
+        width: 90vw;
+        gap: 4vw;
+        grid-template-columns: 2fr; 
+
+    }
+    .proyecto1 {
+        background-color: #1a3058;
+        width: 70vw;
+        padding: 0.5vw;
+        left: 10vw;
         border-radius: 4vw; 
         overflow: hidden; 
     }
@@ -614,11 +958,57 @@ a {
         top: 5vw;
     }
     .piedepag{
+        top: 16vw;
         height: 25vw;
         width: 100%;    
     }
+    .botones2{
+        position: relative;
+        left: 60vw;
+        top: -15vw;
+        width: 39vw;
+        font-size: 4vw;
+        
+    }
+    .botones2 img{
+        width: 4vw;
+        height: 4vw;
+    }
+    .botones2 a{
+        color: #1f2022;
+        font-family: letra2;
+    }
+    .piedePaText{
+        position: relative;
+        left: -18vw;
+        top: 2vw;
+        font-size: 4vw;
+        color: #8d96ab;
+        font-family: letra2;
     
-    
-    
-    
+    }
+    .texDesarr{
+        position: relative;
+        left: -18vw;
+        top: 1vw;
+        font-size: 3vw;
+        color: #979dac;
+        font-family: letra;
+    }
+    .texAutor{
+        position: relative;
+        top: -2vw;
+        left: -40vw;
+        opacity: 0%;
+        color: #979dac;
+        font-size: 1.2vw;
+        font-family: letra;
+    }
+    .lineaa{
+        position: relative;
+        top: -2.3vw;
+        left: 18vw;
+        width: 30vw;
+        border: 0.1vw solid rgb(49, 47, 47);
+    }
 }
