@@ -19,16 +19,25 @@ body{
 #contenedor1{
     margin-left: -0.6vw;
     height: 100vh;
-    background: linear-gradient(to bottom right, #1e8076 50%, #001233 50%);
+    background: linear-gradient(to right, #5c6368, #192938);
 }
 .miPortafo{
     position: relative;
     left: 4vw;
     font-size: 2vw;
-    top: -1vw;
+    top: 0vw;
     width: 30vw;
     height: 4vw;
     font-family: letra3;
+}
+
+
+
+a{
+    text-decoration-line: none;
+    color: #fff;
+
+    
 }
 
 @font-face{
@@ -52,7 +61,7 @@ header{
     align-items: center;
     
     margin: -0.5vw;
-    background-color:#33415c ;
+    background: linear-gradient(to right, #233f53, #366897);
     position: fixed;
     height: 4.5vw;
     width: 100%;
@@ -99,12 +108,15 @@ header{
     color:#979dac;
 
 }
+.opciones a:hover{
+    color: #24d4d4;
+}
 
 .imagen{
     position: relative;
-    box-shadow: 0 0 20px #4df582;
+    box-shadow: 0 0 20px #24d4d4;
 
-    border: 0.1vw solid #4df582;
+    border: 0.1vw solid #24d4d4;
     top: 15vw;
     left: 20vw;
     width: 20vw;
@@ -127,7 +139,7 @@ header{
     font-family: letra;
 }
 .contenido1 h1{
-    color:#4df582 ;
+    color:#24d4d4 ;
     font-family: letra2;
     
 }
@@ -135,21 +147,37 @@ header{
     font-size: 1.5vw;
     position: relative;
     top: 10vw;
-    left: 48vw;
+    left: 30vw;
     width: 38vw;
     font-family: letra;
 
 }
+.imgbotn1{
+    position: relative;
+    top: 0.2vw;
+    width: 1.2vw;
+    height: 1.2vw;
+}
 
 .botones button{
-    background-color: #4df582;
+    background: linear-gradient(to right, #233f53, #366897);
     border: black;
     width: 10vw;
     height: 2vw;
     border-radius: 0.5vw;
     color: black;
     font-family: letra2;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1vw;
 }
+.botones button:hover{
+    width: 11vw;
+    height: 2.5vw;
+    color: white;
+}
+
 #contenedor2{
     position: relative;
     top: -1.5vw;
@@ -160,18 +188,18 @@ header{
     align-items: center;
     text-align: center;
     color: white;
-    background: linear-gradient(to bottom right,#001233 50%, #1e8076 50%);
+    background: linear-gradient(to right, #50555a, #111d29);
 
 }
 #contenedor2 h1{
-    color:#4df582 ;
+    color:#24d4d4 ;
     font-family: letra2;
 
 }
 
 .Imgproyecto1{
-    width: 20vw;
-    height: 20vw;
+    width: 15vw;
+    height: 16vw;
     mask-image: linear-gradient(
         black 80%, 
         transparent
@@ -187,44 +215,71 @@ header{
     align-items: center;
     text-align: center;
     color: white;
-    background: linear-gradient(to bottom right,#1e8076 50%,#001233 50%);
+    background: linear-gradient(to right, #696f74, #132434);
     width: 100vw;
     
 }
 #contenedor3 h2{
     position: relative;
-    top: 5vw;
+    top: 7vw;
     font-size: 3vw;
-    color:#4df582 ;
+    font-family: letra2;
+    color:#24d4d4;
+}
+.cont1 p{
+    font-size: 2vw;
+    font-family: letra;
+}
+.cont1 p:hover{
+    font-size: 2vw;
+    color: #24d4d4;
+    font-family: letra2;
+}
+
+.texCont3{
+    position: relative;
+    top: 6vw;
+    font-family: letra;
+    font-size: 2vw;
 }
 .imagenesLenguajes{
     position: relative;
     display: flex;
+    left: 15vw;
+    width: 70vw;
     justify-content: center;
     align-items: center;
-    gap: 5vw;
-    top: 10vw;
+    gap: -1vw;
+    top: 13vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Dos columnas en móviles */
+
 
 }
-.imagenesLenguajes p{
-    font-family: letra;
-    font-size: 2vw;
-}
+
+
 .lenguaje{
     width: 6vw;
-    height: auto;
+    height: 6vw;
     animation: sacudida 5s infinite ease-in-out;
 
 }
-.lenguaje:hover{
-    box-shadow: 0 1.7vw 2vw -1vw rgba(255, 255, 255, 0.5);
-
+.cont1 p{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    top: -1vw;
 }
 
 .lenguTex:hover{
     background-color: #1e8076;
     font-family: letra2;
     border-radius: 1vw;
+    position: relative;
+    top: -2vw;
+    
 }
 .lenguTex2:hover{
     background-color: #001233;
@@ -245,16 +300,325 @@ header{
 
 #contenedor4{
     position: relative;
-    top: -4vw;
+    top: -6vw;
     width: 100vw;
     left: -1vw;
     height: 100vh;
-    display: flex;
     gap: 2vw;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
-    background: linear-gradient(to bottom right,#001233 50%, #1e8076 50%);
+    background: linear-gradient(to right, #50555a, #111d29);
 
+}
+#contenedor4 h1{
+    color: #24d4d4;
+    font-family: letra2;
+    position: relative;
+    top: 5vw;
+}
+.ContenProyectos{
+    position: relative;
+    top: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 4vw;
+    left: 15vw;
+    width: 70vw;
+
+}
+.TitulProyec{
+    position: relative;
+    top: 3vw;
+    color: #000;
+    font-size: 3vw;
+}
+.proyecto1 {
+    background-color: #1a3058;
+    width: 20vw;
+    padding: 0.5vw;
+    border: 2px solid transparent;
+    border-radius: 10px; 
+    position: relative; 
+    overflow: hidden; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.proyecto1:hover {
+    border-color: #00ffcc;
+    box-shadow: 0 0 15px #00ffcc; 
+}
+
+a {
+    text-decoration: none;
+    color: #00ffcc;
+}
+
+.proyecto1 p {
+    color: white;
+    font-family: letra;
+}
+.proyecto1 h2{
+    font-family: letra2;
+}
+
+.piedepag{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 8vw;
+    background: linear-gradient(to right, #233f53, #366897);
+    height: 4.5vw;
+    width: 100%;
+    color:#979dac;
+
+}
+.menu-toggle {
+    display: none; 
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.menu-toggle span {
+    width: 100%;
+    height: 3px;
+    background: #979dac;
+    border-radius: 2px;
+}
+@media screen and (max-width: 435px){
+    body{
+        margin: -0.5vw;
+    }
+    header{
+        width: 101%;
+        top: 0vw;
+        height: 15vw;
+       
+    }
+    .imagen{
+        position: relative;
+        box-shadow: 0 0 20px #24d4d4;
+        border: 0.1vw solid #24d4d4;
+        top: 30vw;
+        left: 0vw;
+        width: 60vw;
+        height: 60vw;
+        border-radius: 50vw;
+    }
+    .contenido1{
+    
+        width: 68vw;
+        top: 40vw;
+        left: 18vw;
+        font-size: 5vw;
+    }
+    .contenido1 p{
+        color: white;
+        font-family: letra;
+    }
+    .contenido1 h1{
+        color:#24d4d4 ;
+        font-family: letra2;
+        
+    }
+    .imgbotn1{
+        position: relative;
+        top: 0.2vw;
+        width: 4vw;
+        height: 4vw;
+    }
+    
+    .botones button{
+        background: linear-gradient(to right, #233f53, #366897);
+        border: black;
+        width: 30vw;
+        height: 10vw;
+        border-radius: 0.5vw;
+        color: black;
+        font-family: letra2;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 4vw;
+    }
+    
+    .botones button:hover{
+        width: 31vw;
+        height: 11vw;
+        color: white;
+    }
+    .menu-toggle {
+        position: relative;
+        top: -4vw;
+        left: 85vw;
+        display: flex; 
+    }
+
+    .opciones {
+        display: none; 
+        flex-direction: column;
+        position: relative;
+        top: -2vw;
+        left: 52vw;
+        width: 50vw;
+        height: 75vw;
+        background: linear-gradient(to right, #233f53, #366897);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        font-size: 5vw;
+    }
+
+    .opciones.active {
+        display: flex; 
+    }
+    .icono{
+        width: 7vw;
+        height: 7vw;
+    }
+    .opciones img{
+        position: relative;
+        left: -0.7vw;
+        top: 3.5vw;
+        
+    }
+    .opciones a{
+        font-family: letra3;
+        display: flex;
+        text-decoration: none;
+        color:#979dac;    
+    }
+    .miPortafo{
+        position: relative;
+        left: 5vw;
+        font-size: 6vw;
+        top: -0.5vw;
+        width: 35vw;
+        height: 4vw;
+        font-family: letra3;
+    }
+    
+    #contenedor2{
+        position: relative;
+        top: -5vw;
+        left: 0.5vw;
+        width: 101.5vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        background: linear-gradient(to right, #50555a, #111d29);
+    
+    }
+    #TextoSobremi{
+        font-size: 5vw;
+        position: relative;
+        top: 20vw;
+        left: 15vw;
+        width: 70vw;
+        font-family: letra;
+    
+    }
+    #contenedor2 h1{
+        color:#24d4d4 ;
+        font-family: letra2;
+    
+    }
+    .Imgproyecto1{
+        width: 45vw;
+        height: 40vw;
+        mask-image: linear-gradient(
+            black 80%, 
+            transparent
+        );
+        border-radius: 1vw;
+    }
+    #contenedor3{
+        position: relative;
+        top: -11vw;
+        left: 0.5vw;
+        background: linear-gradient(to right, #696f74, #132434);  
+        width: 101.5vw;
+        
+    }
+    #contenedor3 h2{
+        top: 10vw;
+        font-size: 7vw;
+        font-family: letra2;
+        color:#24d4d4;
+    }
+    
+    .texCont3 {
+        font-size: 5.5vw;
+    }
+
+    .imagenesLenguajes {
+        
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2vw;
+    }
+
+    .lenguaje {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .cont1 p {
+        font-size: 5vw;
+        font-family: letra3;
+    }
+  
+    
+    .lenguaje{
+        width: 20vw;
+        height: 20vw;
+        animation: sacudida 5s infinite ease-in-out;
+    
+    }
+    .ContenProyectos{
+        position: relative;
+        left: 5vw;
+        width: 90vw;
+        gap: -1vw;
+        grid-template-columns: 2fr; 
+
+    }
+    .proyecto1 {
+        background-color: #1a3058;
+        width: 90vw;
+        padding: 0.5vw;
+        border-radius: 4vw; 
+        overflow: hidden; 
+    }
+    #contenedor4{
+        top: -16vw;
+        width: 101.5vw;
+        left: 0.5vw;
+        height: 160vh;
+        gap: -2vw;    
+    }
+    #contenedor4 h1{
+        font-size: 7vw;
+        position: relative;
+        top: 5vw;
+    }
+    .piedepag{
+        height: 25vw;
+        width: 100%;    
+    }
+    
+    
+    
+    
 }
