@@ -59,8 +59,8 @@ header{
     text-align: center;
     justify-content: center;
     align-items: center;
-    
-    margin: -0.6vw;
+    top: -0.1vw;
+    left: 0vw;
     background: linear-gradient(to right, #233f53, #366897);
     position: fixed;
     height: 4.5vw;
