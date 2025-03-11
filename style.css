@@ -18,7 +18,7 @@ body{
 #contenedor1{
     margin-left: -0.6vw;
     height: 100vh;
-    background: #2D4A53;
+    background: #305763;
 }
 .miPortafo{
     position: relative;
@@ -113,9 +113,9 @@ header{
 
 .imagen{
     position: relative;
-    box-shadow: 0 0 20px #22cad3 ;
+    box-shadow: 0 0 20px #d6d8d2;
 
-    border: 0.1vw solid #22cad3 ;
+    border: 0.1vw solid #9da192 ;
     top: 15vw;
     left: 20vw;
     width: 20vw;
@@ -138,8 +138,7 @@ header{
     font-family: letra;
 }
 .contenido1 h1{
-    color:
-    #22cad3;
+    color:#9da192;
     font-family: letra2;
     
 }
@@ -201,7 +200,7 @@ header{
 
 }
 #contenedor2 h1{
-    color:#22cad3 ;
+    color:#9da192 ;
     font-family: letra2;
 
 }
@@ -233,7 +232,7 @@ header{
     top: 7vw;
     font-size: 3vw;
     font-family: letra2;
-    color:#22cad3;
+    color:#9da192;
 }
 .cont1 p{
     font-size: 2vw;
@@ -325,7 +324,7 @@ header{
 
 }
 #contenedor4 h1{
-    color: #22cad3;
+    color: #9da192;
     font-family: letra2;
     position: relative;
     top: 4vw;
@@ -369,7 +368,7 @@ header{
 
 a {
     text-decoration: none;
-    color: #22cad3;
+    color: #9da192;
 }
 
 .proyecto1 p {
