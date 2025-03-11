@@ -19,7 +19,7 @@ body{
 #contenedor1{
     margin-left: -0.6vw;
     height: 100vh;
-    background: #294D61;
+    background: #2D4A53;
 }
 .miPortafo{
     position: relative;
@@ -259,6 +259,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 1vw;
+
 }
 
 .imagenesLenguajes {
@@ -266,6 +268,7 @@ header{
     width: max-content; 
     animation: moverCarrusel 10s infinite linear;
     gap: 1vw; 
+    border-radius: 2vw;
 }
 .imagenesLenguajes:hover {
     animation-play-state: paused;
@@ -273,13 +276,15 @@ header{
 .cont1 {
     min-width: 10vw;
     text-align: center;
+    background-color:#1b6a74;
+    border: 0.4vw solid  #072E33 ;
     padding: 10px;
+    border-radius: 1vw;
+
 }
 .cont1:hover{
-    background-color: #0a3b415f;
-    border-radius: 1vw;
-    border-color: #4257bd;
-    box-shadow: 0 0 10px #d8ddf2; 
+    background-color: #39adbc;
+    box-shadow: 0 0 10px #3e5bcf; 
 }
 
 .lenguaje {
@@ -358,13 +363,13 @@ header{
 }
 
 .proyecto1:hover {
-    border-color: #00ffcc;
-    box-shadow: 0 0 15px #00ffcc; 
+    border-color: #22cad3;
+    box-shadow: 0 0 15px #22cad3; 
 }
 
 a {
     text-decoration: none;
-    color: #00ffcc;
+    color: #22cad3;
 }
 
 .proyecto1 p {
@@ -644,6 +649,9 @@ a {
     .cont1 p {
         font-size: 5.5vw;
         font-family: letra3;
+    }
+    .cont1{
+        width: 25vw;
     }
 
     
@@ -933,7 +941,9 @@ a {
         font-size: 4vw;
     }
 
-  
+    .cont1{
+        width: 25vw;
+    }
     
     .lenguaje{
         width: 10vw;
