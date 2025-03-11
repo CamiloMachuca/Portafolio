@@ -13,8 +13,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    
-    
+
 }
 #contenedor1{
     margin-left: -0.6vw;
@@ -69,8 +68,8 @@ header{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .icono{
-    width: 2vw;
-    height: 2vw;
+    width: 1.4vw;
+    height: 1.4vw;
 }
 
 #contenedor{
@@ -87,7 +86,7 @@ header{
     align-items: center;
     position: relative;
     top: -6vw;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     display: flex;
     gap: 3vw;
     left: 35vw;
@@ -98,7 +97,7 @@ header{
 .opciones img{
     position: relative;
     left: -0.5vw;
-    top: 1.2vw;
+    top: 1.1vw;
     
 }
 .opciones a{
@@ -306,7 +305,8 @@ header{
 
 @keyframes moverCarrusel {
     0% { transform: translateX(0); }
-    100% { transform: translateX(-50vw); } /* Se mueve en base al ancho */
+
+    100% { transform: translateX(-50vw); } 
 }
 
 
@@ -414,16 +414,16 @@ a {
 .botones2{
     position: relative;
     left: 74vw;
-    top: -7vw;
+    top: -5vw;
     display: flex;
     width: 20vw;
     justify-content: space-between;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     
 }
 .botones2 img{
-    width: 1.5vw;
-    height: 1.5vw;
+    width: 1.2vw;
+    height: 1.2vw;
 }
 .botones2 a{
     color: #D0D7E1;
@@ -433,7 +433,7 @@ a {
     position: relative;
     left: -37vw;
     top: 2vw;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     color: #8d96ab;
     font-family: letra2;
 
@@ -442,7 +442,7 @@ a {
     position: relative;
     left: -37vw;
     top: 1vw;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     color: #979dac;
     font-family: letra;
 }
@@ -450,7 +450,7 @@ a {
     position: relative;
     top: -2.5vw;
     color: #979dac;
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-family: letra;
 }
 .lineaa{
