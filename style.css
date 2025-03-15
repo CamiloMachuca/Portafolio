@@ -213,7 +213,19 @@ header{
     font-family: letra2;
 
 }
+#DescargarCV{
+    background-color: #0078d4;
+    border: #0078d4;
+    width: 10vw;
+    height: 2vw;
+    border-radius: 1vw;
+    color: white;
+    font-size: 1.2vw;
+}
 
+#DescargarCV:hover{
+    background-color: #0d426a;
+}
 .Imgproyecto1{
     width: 15vw;
     height: 16vw;
@@ -333,8 +345,22 @@ header{
     color: #000;
     font-size: 3vw;
 }
+.proyectLenguajes{
+    display: flex;
+    gap: 1.5vw;
+    align-items: center;
+    justify-content: center;
+    
+}
+.proyectLenguajes p{
+    background-color: #0078d458;
+    border-radius: 0.5vw;
+    width: 6vw;
+    border: 0.1vw solid rgb(251, 251, 251);
+
+}
 .proyecto1 {
-    background-color: #294D61;
+    background-color: #366178;
     width: 20vw;
     padding: 0.5vw;
     border: 2px solid transparent;
@@ -353,7 +379,7 @@ header{
 
 a {
     text-decoration: none;
-    color: #9da192;
+    color: #22cad3;
 }
 
 .proyecto1 p {
@@ -391,7 +417,7 @@ a {
 .menu-toggle span {
     width: 100%;
     height: 3px;
-    background: #181818;
+    background: #ffffff;
     border-radius: 2px;
 }
 
@@ -451,19 +477,107 @@ a {
     width: 100vw;
     left: -1vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
     gap: 2vw;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
     background: #181818;
-    border: 1px solid red;
 
 }
+#contenedor5 h2{
+    font-size: 3vw;
+    font-family: letra2;
+    color: #0078d4;
+
+
+}
+form{
+    display: flex;
+    width: 30vw;
+    flex-direction: column;
+    gap: 0.5vw;
+
+
+}
+form input{
+    height: 2vw;
+    font-size: 1vw;
+    border-radius: 0.5vw;
+}
+.botonEnviar{
+    position: relative;
+    top: 2vw;
+    font-size: 1.6vw;
+    height: 2.5vw;
+    background-color: #0078d4;
+    border: #0078d4;
+    color: white;
+}
+.botonEnviar:hover{
+    background-color: #3e55c7;
+}
+form label{
+    font-size: 1.5vw;
+    font-family: letra2;
+    display: flex;
+}
+
 
 @media screen and (max-width: 435px){
     body{
         margin: -0.5vw;
+    }
+    #contenedor5 h2{
+        font-size: 7vw;
+        font-family: letra2;
+        color: #0078d4;
+    
+    
+    }
+    form{
+        display: flex;
+        width: 60vw;
+        flex-direction: column;
+        gap: 0.5vw;
+    
+    
+    }
+    form input{
+        height: 4vw;
+        font-size: 3vw;
+        border-radius: 0.5vw;
+    }
+    .botonEnviar{
+        position: relative;
+        top: 2vw;
+        font-size: 4vw;
+        height: 5vw;
+        background-color: #0078d4;
+        border: #0078d4;
+        color: white;
+    }
+    .botonEnviar:hover{
+        background-color: #3e55c7;
+    }
+    form label{
+        font-size: 5vw;
+        font-family: letra2;
+        display: flex;
+    }
+    
+    #DescargarCV{
+        width: 30vw;
+        height: 6vw;
+        font-size: 4vw;
+    }
+   
+    .imagCamilo{
+        top: -170vw;
+        width: 58vw;
+        height: 85vw;
     }
     .botones{
         display: flex;
@@ -506,7 +620,18 @@ a {
         width: 4vw;
         height: 4vw;
     }
+    .proyectLenguajes{
+        display: flex;
+        gap: 3vw;
+
+    }
+    .proyectLenguajes p{
+        background-color: #0078d458;
+        border-radius: 0.5vw;
+        width: 25vw;
+        font-size: 4vw;
     
+    }
     .botones button{
         border: black;
         width: 30vw;
@@ -534,11 +659,11 @@ a {
         display: none; 
         flex-direction: column;
         position: relative;
-        top: -2vw;
+        top: 1vw;
         left: 52vw;
         width: 50vw;
-        height: 75vw;
-        background: #072E33;
+        height: 85vw;
+        background: #14141491;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         font-size: 5vw;
     }
@@ -586,12 +711,14 @@ a {
     #TextoSobremi{
         font-size: 5vw;
         position: relative;
-        top: 20vw;
-        left: 15vw;
-        width: 70vw;
+        top: 10vw;
+        left: 34vw;
+        width: 60vw;
         font-family: letra;
     
     }
+    
+   
     #contenedor2 h1{
         font-family: letra2;
     
@@ -621,47 +748,44 @@ a {
     .texCont3 {
         font-size: 5.5vw;
     }
-    .carrusel {
-        width: 45vw; 
-        height: 90vw; 
-        overflow: hidden; 
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        display: flex;
-        flex-direction: column; 
-        justify-content: center;
+    .imagenesLenguajes{
         align-items: center;
-    }
-    
-    .imagenesLenguajes {
         display: flex;
-        flex-direction: column; 
-        align-items: center;
-        gap: 1vw;
-        animation: moverCarrusel 10s linear infinite;
+        flex-direction: column;
     }
-    @keyframes moverCarrusel {
-        0% { transform: translateY(0%); } 
-        100% { transform: translateY(-50%); } 
-    }
+   
 
-    .cont1 p {
-        font-size: 5.5vw;
-        font-family: letra3;
-    }
     .cont1{
-        width: 25vw;
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        text-align: left;
+        margin: 0.5vw;
     }
-
+    .cont1 h3{
+        font-size: 5vw;
+        color:#0078d4;
+        font-family: letra2;
     
+    }
+    
+    .cont1 p{
+        font-size: 4vw;
+        justify-content: center;
+        font-family: letra;
+        margin-top: -1vw;
+    }
+    .cont1:hover{
+        background-color: #103b5b;
+        box-shadow: 0 0 0.5vw #0078d4;
+    
+    }
     .lenguaje{
-        width: 18vw;
-        height: 18vw;
-        animation: sacudida 5s infinite ease-in-out;
-    
+        width: 5vw;
+        height: 5vw;
     }
+    
+    
     .ContenProyectos{
         position: relative;
         left: 5vw;
@@ -907,50 +1031,7 @@ a {
         font-size: 4vw;
     }
 
-    .carrusel {
-        width: 45vw; 
-        height: 90vw; 
-        overflow: hidden; 
-        position: absolute;
-        top: 55%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        display: flex;
-        flex-direction: column; 
-        justify-content: center;
-        align-items: center;
-    }
     
-    .imagenesLenguajes {
-        display: flex;
-        flex-direction: column; 
-        align-items: center;
-        gap: 1vw;
-        animation: moverCarrusel 10s linear infinite;
-    }
-    @keyframes moverCarrusel {
-        0% { transform: translateY(0%); } 
-        100% { transform: translateY(-50%); } 
-    }
-
-    .cont1 p {
-        font-size: 5vw;
-        font-family: letra3;
-    }
-
-    .cont1 p:hover {
-        font-size: 4vw;
-    }
-
-    .cont1{
-        width: 25vw;
-    }
-    
-    .lenguaje{
-        width: 10vw;
-        height: 10vw;
-    
-    }
     .ContenProyectos{
         position: relative;
         left: 5vw;

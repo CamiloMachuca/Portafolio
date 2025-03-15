@@ -39,6 +39,10 @@
                 <img class="icono" src="/img/gestion-de-proyectos (2).png" alt="">
                 <p>Proyectos</p>
             </a>
+            <a href="#contenedor5">
+                <img class="icono" src="/img/correo-de-contacto (1).png" alt="">
+                <p>Contacto</p>
+            </a>
 
 
         </div>
@@ -89,6 +93,7 @@
                     <p>Siempre busco nuevos desafios que me permitan mejorar y expandir mis habilidades y tener exito en
                         los proyectos
                         en los que participo.</p>
+                        <button id="DescargarCV">Descargar CV</button>
                 </section>
                 <img class="imagCamilo" src="/img/imagenCamilo.png" alt="">
 
@@ -163,6 +168,11 @@
                         <p>Aplicativo basado en la API de los pokémon.
                             Muestra imágenes, sonidos, movimientos y permite navegar entre los pokémon de forma
                             sencilla.</p>
+                        <div class="proyectLenguajes">
+                        <p>HTML </p>
+                        <p>JavaScript</p>
+                        <p>CSS</p>
+                    </div>
                     </div>
                 </a>
                 <a href="https://github.com/CamiloMachuca/Proyecto_pythom_MachucaCamilo_GarciaDiego">
@@ -172,6 +182,10 @@
                         <p>Aplicactivo para el seguimiento académico de campers, con tres roles: Camper(para ver su
                             progreso), Trainer(para evaluar y guiar a los campers) y coordinador(para administrar el
                             programa).</p>
+                            <div class="proyectLenguajes">
+                                <p>Python </p>
+                                
+                            </div>
                     </div>
                 </a>
                 <a href="https://github.com/CamiloMachuca/PROYECTO_FILTRO_JS_MachucaCamilo_FreilerOrtega">
@@ -180,6 +194,11 @@
                         <h2>SpaceX</h2>
                         <p>Aplicativo web que recrea la página de SpaceX, mostrando los cohetes con sus características
                             técnicas y detalles relevantes. </p>
+                        <div class="proyectLenguajes">
+                            <p>HTML </p>
+                            <p>JavaScript</p>
+                            <p>CSS</p>
+                        </div>
 
                     </div>
                 </a>
@@ -187,15 +206,15 @@
             <div id="contenedor5">
                 <h2>Contactame</h2>
                 <form name="formularioPortafolio" method="POST" data-netlify="true">
-                    <label for="Nombre">Nombre</label>
-                    <input type="text" name="name">
+                    <label class="nombre1" for="Nombre">Nombre</label>
+                    <input type="text" name="name" placeholder="Nombre completo">
 
                     <label for="email"> Correo Electronico</label>
-                    <input type="text" name="email">
+                    <input type="text" name="email" placeholder="Correo electronico">
 
                     <label for="mensaje">Mensaje</label>
                     <textarea name="mensaje" cols="30" rows="10" ></textarea>
-                    <input type="submit" value="Enviar">
+                    <input class="botonEnviar" type="submit" value="Enviar">
 
                     <input type="hidden" name="_next" value="gentle-paprenjak-a70a11.netlify.app">
                     <input type="hidden" name="_captcha" value="false">
