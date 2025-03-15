@@ -18,7 +18,8 @@ body{
 #contenedor1{
     margin-left: -0.6vw;
     height: 100vh;
-    background: #305763;
+    background: 
+    #181818;
 }
 .miPortafo{
     position: relative;
@@ -37,6 +38,13 @@ a{
     color: #fff;
 
     
+}
+.imagCamilo{
+    position: relative;
+    top: -30vw;
+    left: -30vw;
+    width: 25vw;
+    height: 40vw;
 }
 
 @font-face{
@@ -60,11 +68,12 @@ header{
     align-items: center;
     top: -0.1vw;
     left: 0vw;
-    background: #072E33;
+    background: #181818;
     position: fixed;
+    box-shadow: 0 0 10px #0078d4;
     height: 4.5vw;
     width: 100%;
-    color:#D0D7E1;
+    color:#0078d4;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .icono{
@@ -113,9 +122,8 @@ header{
 
 .imagen{
     position: relative;
-    box-shadow: 0 0 20px #d6d8d2;
-
-    border: 0.1vw solid #9da192 ;
+    box-shadow: 0 0 1vw #0078d4 ;
+    border: 0.1vw solid #0078d4 ;
     top: 15vw;
     left: 20vw;
     width: 20vw;
@@ -138,15 +146,15 @@ header{
     font-family: letra;
 }
 .contenido1 h1{
-    color:#9da192;
+    color:#0078d4;
     font-family: letra2;
     
 }
 #TextoSobremi{
     font-size: 1.5vw;
     position: relative;
-    top: 10vw;
-    left: 30vw;
+    top: 5vw;
+    left: 45vw;
     width: 38vw;
     font-family: letra;
 
@@ -168,8 +176,8 @@ header{
 }
 
 .botones button{
-    background: #072E33;
-    border: black;
+    background: #f7d83a00;
+    border:0.1vw solid #0078d4;
     width: 10vw;
     height: 2.5vw;
     border-radius: 0.5vw;
@@ -181,6 +189,7 @@ header{
     font-size: 1vw;
 }
 .botones button:hover{
+    background-color: #0078d4;
     width: 11vw;
     height: 3vw;
     color: white;
@@ -196,11 +205,11 @@ header{
     align-items: center;
     text-align: center;
     color: white;
-    background:#1c3c4d;
+    background:#181818;
 
 }
 #contenedor2 h1{
-    color:#9da192 ;
+    color:#0078d4 ;
     font-family: letra2;
 
 }
@@ -223,89 +232,65 @@ header{
     align-items: center;
     text-align: center;
     color: white;
-    background: #294D61;
+    background: #181818;
     width: 100vw;
     
 }
+.imagenesLenguajes{
+    position: relative;
+    top: 3vw;
+    width: auto;
+    left: 5vw;
+    display: flex;
+
+}
 #contenedor3 h2{
     position: relative;
-    top: 7vw;
+    top: 5vw;
     font-size: 3vw;
     font-family: letra2;
-    color:#9da192;
+    color:#0078d4;
 }
-.cont1 p{
+.cont1{
+    display: flex;
+    flex-direction: column;
+    width: 17vw;
+    text-align: left;
+    margin: 0.5vw;
+}
+.cont1 h3{
     font-size: 2vw;
+    color:#0078d4;
+    font-family: letra2;
+
+}
+
+.cont1 p{
+    font-size: 1.2vw;
+    justify-content: center;
     font-family: letra;
+    margin-top: -1vw;
+}
+.cont1:hover{
+    background-color: #103b5b;
+    box-shadow: 0 0 0.5vw #0078d4;
+
 }
 
 
 .texCont3{
     position: relative;
-    top: 6vw;
+    top: 4vw;
     font-family: letra;
     font-size: 2vw;
 }
-.carrusel {
-    width: 45vw; 
-    height: 15vw; 
-    overflow: hidden; 
-    position: absolute;
-    top: 30vw;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1vw;
 
-}
-
-.imagenesLenguajes {
-    display: flex;
-    width: max-content; 
-    animation: moverCarrusel 10s infinite linear;
-    gap: 1vw; 
-    border-radius: 2vw;
-}
-.imagenesLenguajes:hover {
-    animation-play-state: paused;
-}
-.cont1 {
-    min-width: 10vw;
-    text-align: center;
-    background-color:#1b6a74;
-    border: 0.4vw solid  #072E33 ;
-    padding: 10px;
-    border-radius: 1vw;
-
-}
-.cont1:hover{
-    background-color: #39adbc;
-    box-shadow: 0 0 10px #3e5bcf; 
-}
 
 .lenguaje {
-    width: 6vw;
-    height: 6vw;
-    animation: sacudida 5s infinite ease-in-out;
-}
-@keyframes sacudida{
-    0%, 100%{
-        transform: translateX(0) rotate(0deg);
-    }
-    10%, 30%, 50%, 70%,90%{
-        transform: translateX(-5px) rotate(-5deg);
-    }
-    20%, 40%, 60%, 80%{
-        transform: translateX(5px) rotate(5deg);
-    }
-}
-
-@keyframes moverCarrusel {
-    0% { transform: translateX(0); }
-
-    100% { transform: translateX(-50vw); } 
+    position: relative;
+    top: 0.5vw;
+    width: 2.5vw;
+    height: 2.5vw;
 }
 
 
@@ -320,11 +305,11 @@ header{
     align-items: center;
     text-align: center;
     color: white;
-    background: #203f50;
+    background: #181818;
 
 }
 #contenedor4 h1{
-    color: #9da192;
+    color: #0078d4;
     font-family: letra2;
     position: relative;
     top: 4vw;
@@ -385,8 +370,8 @@ a {
     align-items: center;
     position: relative;
     top: 7vw;
-    background: #072E33;
-    height: 9vw;
+    background: #1f1f1f;
+    height: 7vw;
     width: 100%;
     color:#979dac;
 
@@ -406,7 +391,7 @@ a {
 .menu-toggle span {
     width: 100%;
     height: 3px;
-    background: #979dac;
+    background: #181818;
     border-radius: 2px;
 }
 
@@ -459,6 +444,23 @@ a {
     width: 30vw;
     border: 0.1vw solid rgb(49, 47, 47);
 }
+
+#contenedor5{
+    position: relative;
+    top: 8vw;
+    width: 100vw;
+    left: -1vw;
+    height: 100vh;
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background: #181818;
+    border: 1px solid red;
+
+}
+
 @media screen and (max-width: 435px){
     body{
         margin: -0.5vw;
