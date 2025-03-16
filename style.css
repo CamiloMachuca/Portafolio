@@ -13,13 +13,15 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-
+    background: 
+    #181818;
 }
 #contenedor1{
     margin-left: -0.6vw;
     height: 100vh;
     background: 
     #181818;
+
 }
 .miPortafo{
     position: relative;
@@ -355,7 +357,7 @@ header{
 .proyectLenguajes p{
     background-color: #0078d458;
     border-radius: 0.5vw;
-    width: 6vw;
+    width: 7.2vw;
     border: 0.1vw solid rgb(251, 251, 251);
 
 }
@@ -531,7 +533,7 @@ form label{
         margin: -0.5vw;
     }
     #contenedor5 h2{
-        font-size: 7vw;
+        font-size: 8vw;
         font-family: letra2;
         color: #0078d4;
     
@@ -546,15 +548,15 @@ form label{
     
     }
     form input{
-        height: 4vw;
-        font-size: 3vw;
+        height: 7vw;
+        font-size: 5vw;
         border-radius: 0.5vw;
     }
     .botonEnviar{
         position: relative;
         top: 2vw;
-        font-size: 4vw;
-        height: 5vw;
+        font-size: 5vw;
+        height: 8vw;
         background-color: #0078d4;
         border: #0078d4;
         color: white;
@@ -568,17 +570,7 @@ form label{
         display: flex;
     }
     
-    #DescargarCV{
-        width: 30vw;
-        height: 6vw;
-        font-size: 4vw;
-    }
    
-    .imagCamilo{
-        top: -170vw;
-        width: 58vw;
-        height: 85vw;
-    }
     .botones{
         display: flex;
         width: 68vw;
@@ -625,6 +617,9 @@ form label{
         gap: 3vw;
 
     }
+    #contenedor1{
+        height: 115vh;
+    }
     .proyectLenguajes p{
         background-color: #0078d458;
         border-radius: 0.5vw;
@@ -661,6 +656,7 @@ form label{
         position: relative;
         top: 1vw;
         left: 52vw;
+        gap: 0.5vw;
         width: 50vw;
         height: 85vw;
         background: #14141491;
@@ -698,29 +694,55 @@ form label{
     
     #contenedor2{
         position: relative;
-        top: -5vw;
+        top: 0vw;
         left: 0.5vw;
         width: 101.5vw;
-        height: 100vh;
+        height: 170vh;
         justify-content: center;
         align-items: center;
         text-align: center;
         color: white;
     
     }
-    #TextoSobremi{
+    #DescargarCV{
+        position: relative;
+        top: 90vw;
+        width: 35vw;
+        left: -15vw;
+        height: 9vw;
+        font-size: 5vw;
+    }
+   
+    .imagCamilo{
+        position: relative;
+        left: 5vw;
+        top: -140vw;
+        width: 60vw;
+        height: 88vw;
+
+    }
+    #TextoSobremi p{
         font-size: 5vw;
         position: relative;
-        top: 10vw;
-        left: 34vw;
-        width: 60vw;
+        top: 90vw;
+        left:-30vw;
+        width: 70vw;
         font-family: letra;
-    
+
+
     }
+   
     
    
     #contenedor2 h1{
         font-family: letra2;
+        font-size: 6vw;
+        position: relative;
+        left: -10vw;
+        top: 7vw;
+        font-size: 8vw;
+        width: 40vw;
+
     
     }
     .Imgproyecto1{
@@ -737,6 +759,7 @@ form label{
         top: -11vw;
         left: 0.5vw;
         width: 101.5vw;
+        height: auto;
         
     }
     #contenedor3 h2{
@@ -795,7 +818,9 @@ form label{
 
     }
     .proyecto1 {
-        width: 90vw;
+        width: 80vw;
+        position: relative;
+        left: 4vw;
         padding: 0.5vw;
         border-radius: 4vw; 
         overflow: hidden; 
