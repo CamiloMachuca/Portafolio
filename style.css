@@ -3,6 +3,7 @@ html{
     scroll-behavior: smooth;
 }
 
+
 body{
     align-items: center;
     justify-content: center;
@@ -14,13 +15,65 @@ body{
     align-items: center;
     text-align: center;
     background: 
-    #181818;
+    #1d1c1c;
 }
+.count-particles{
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13E8E9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .js-count-particles{
+    font-size: 1.1em;
+  }
+  
+  #stats,
+  .count-particles{
+    -webkit-user-select: none;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  
+  #stats{
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+  }
+  
+  .count-particles{
+    border-radius: 0 0 3px 3px;
+  }
+  
+  
+  /* ---- particles.js container ---- */
+  
+#particles-js{
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: #1d1c1c;
+background-image: url('');
+background-size: cover;
+background-position: 50% 50%;
+background-repeat: no-repeat;
+}
+
+
+  
+
 #contenedor1{
     margin-left: -0.6vw;
     height: 100vh;
-    background: 
-    #181818;
+    
 
 }
 .miPortafo{
@@ -207,7 +260,7 @@ header{
     align-items: center;
     text-align: center;
     color: white;
-    background:#181818;
+    background:#1d1c1c;
 
 }
 #contenedor2 h1{
@@ -246,7 +299,7 @@ header{
     align-items: center;
     text-align: center;
     color: white;
-    background: #181818;
+    background: #1d1c1c;
     width: 100vw;
     
 }
@@ -319,7 +372,7 @@ header{
     align-items: center;
     text-align: center;
     color: white;
-    background: #181818;
+    background: #1d1c1c;
 
 }
 #contenedor4 h1{
@@ -486,7 +539,7 @@ a {
     align-items: center;
     text-align: center;
     color: white;
-    background: #181818;
+    background: #1d1c1c;
 
 }
 #contenedor5 h2{
