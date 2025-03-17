@@ -59,7 +59,7 @@ body{
 #particles-js{
 position: absolute;
 width: 100%;
-height: 100%;
+height: 500%;
 background-color: #1d1c1c;
 background-image: url('');
 background-size: cover;
@@ -168,11 +168,11 @@ header{
     font-family: letra3;
     display: flex;
     text-decoration: none;
-    color:#D0D7E1;
+    color:white;
 
 }
 .opciones a:hover{
-    color: #ffffff;
+    color: #0078d4;
 }
 
 .imagen{
@@ -184,6 +184,10 @@ header{
     width: 20vw;
     height: 21vw;
     border-radius: 50vw;
+}
+.imagen:hover{
+    box-shadow: 0 0 2vw #0078d4 ;
+
 }
 .contenido1{
 
@@ -260,7 +264,6 @@ header{
     align-items: center;
     text-align: center;
     color: white;
-    background:#1d1c1c;
 
 }
 #contenedor2 h1{
@@ -299,7 +302,6 @@ header{
     align-items: center;
     text-align: center;
     color: white;
-    background: #1d1c1c;
     width: 100vw;
     
 }
@@ -307,14 +309,14 @@ header{
     position: relative;
     top: 3vw;
     width: auto;
-    left: 5vw;
+    left: 7vw;
     display: flex;
 
 }
 #contenedor3 h2{
     position: relative;
     top: 5vw;
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-family: letra2;
     color:#0078d4;
 }
@@ -324,11 +326,15 @@ header{
     width: 17vw;
     text-align: left;
     margin: 0.5vw;
+    box-shadow: 0 0 0.5vw #e1e4e6;
 }
 .cont1 h3{
     font-size: 2vw;
     color:#0078d4;
     font-family: letra2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -337,9 +343,11 @@ header{
     justify-content: center;
     font-family: letra;
     margin-top: -1vw;
+    
+    
 }
 .cont1:hover{
-    background-color: #103b5b;
+    background-color: #cee6f833;
     box-shadow: 0 0 0.5vw #0078d4;
 
 }
@@ -372,13 +380,13 @@ header{
     align-items: center;
     text-align: center;
     color: white;
-    background: #1d1c1c;
 
 }
 #contenedor4 h1{
     color: #0078d4;
     font-family: letra2;
     position: relative;
+    font-size: 2.8vw;
     top: 4vw;
 }
 .ContenProyectos{
@@ -415,7 +423,7 @@ header{
 
 }
 .proyecto1 {
-    background-color: #366178;
+    background-color: #77c8f350;
     width: 20vw;
     padding: 0.5vw;
     border: 2px solid transparent;
@@ -434,7 +442,7 @@ header{
 
 a {
     text-decoration: none;
-    color: #22cad3;
+    color: #0078d4;
 }
 
 .proyecto1 p {
@@ -539,11 +547,10 @@ a {
     align-items: center;
     text-align: center;
     color: white;
-    background: #1d1c1c;
 
 }
 #contenedor5 h2{
-    font-size: 3vw;
+    font-size: 2.7vw;
     font-family: letra2;
     color: #0078d4;
 
@@ -591,6 +598,12 @@ form label{
         color: #0078d4;
     
     
+    }
+    #particles-js{
+        position: absolute;
+        width: 100%;
+        height: 665%;
+        
     }
     form{
         display: flex;
@@ -825,8 +838,9 @@ form label{
         font-size: 5.5vw;
     }
     .imagenesLenguajes{
-        align-items: center;
         display: flex;
+        align-items: center;
+        left: 0.1vw;
         flex-direction: column;
     }
    
@@ -836,7 +850,9 @@ form label{
         flex-direction: column;
         width: 50vw;
         text-align: left;
-        margin: 0.5vw;
+        margin: 2vw;
+        box-shadow: 0 0 1.2vw #e1e4e6;
+
     }
     .cont1 h3{
         font-size: 5vw;
